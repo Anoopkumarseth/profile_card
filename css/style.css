@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  font-family: lato, Arial, Helvetica, sans-serif;
+  color: #333;
+  outline: 0 !important;
+}
+
+body {
+  background: #c2241f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.profile {
+  height: 282px;
+  width: 582px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profile .profileName {
+  margin-bottom: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: -9px;
+  margin-bottom: 13px;
+}
+
+.profile .profileName span {
+  color: #d53d38;
+  margin-left: 2px;
+}
+
+.profile .MainContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile .MainContent .avtar {
+  margin-left: -7rem;
+}
+
+.profile .MainContent .text {
+  padding: 0 40px;
+}
+
+.profile .MainContent .date {
+  font-size: 16px;
+}
+
+.profile .MainContent .name {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.profile .MainContent .about {
+  color: #836969;
+  font-size: 16px;
+}
+
+.profile .MainContent button {
+  height: 40px;
+  width: 180px;
+  border-radius: 30px;
+  background-color: #c2241f;
+  color: #fff;
+  border: #d53d38;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.profile .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: -3px;
+}
+
+.profile .pagination .dot {
+  border-radius: 30px;
+  height: 15px;
+  width: 15px;
+  background: #f9f9f9;
+  border: 1px solid #c2241f;
+  margin: 7px;
+  cursor: pointer;
+}
+
+.profile .pagination .dot.active {
+  background: #c2241f;
+}
+/*# sourceMappingURL=style.css.map */

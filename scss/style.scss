@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    color: #333;
+    outline: 0 !important;
+}
+body {
+    background: #c2241f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile {
+    height: 282px;
+    width: 582px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    .profileName {
+        margin-bottom: auto;
+        display: flex;
+        font-size: 19px;
+        font-weight: 600;
+        margin-top: -9px;
+        margin-bottom: 13px;
+
+        span {
+            color: #d53d38;
+            margin-left: 2px;
+        }
+    }
+    .MainContent {
+        display: flex;
+        align-items: center;
+        .avtar {
+            margin-left: -7rem;
+        }
+        .text {
+            padding: 0 40px;
+        }
+        .date {
+            font-size: 16px;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        .about {
+            color: #836969;
+            font-size: 16px;
+        }
+
+        button {
+            height: 40px;
+            width: 180px;
+            border-radius: 30px;
+            background-color: #c2241f;
+            color: #fff;
+            border: #d53d38;
+            font-size: 17px;
+            margin-top: 10px;
+        }
+    }
+
+    .pagination {
+        display: flex;
+        margin-top: 4px;
+        margin-bottom: -3px;
+        .dot {
+            border-radius: 30px;
+            height: 15px;
+            width: 15px;
+            background: #f9f9f9;
+            border: 1px solid #c2241f;
+            margin: 7px;
+            cursor: pointer;
+            &.active {
+                background: #c2241f;
+            }
+        }
+    }
+}
